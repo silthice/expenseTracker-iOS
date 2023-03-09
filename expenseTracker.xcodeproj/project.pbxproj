@@ -19,6 +19,7 @@
 		8074BDC929B9C9B100378325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8074BDCB29B9C9B200378325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8074BDCE29B9C9B200378325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80CA8F3A29B9E5D500855DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +52,12 @@
 		8074BDC629B9C9B100378325 /* expenseTracker */ = {
 			isa = PBXGroup;
 			children = (
-				8074BDC729B9C9B100378325 /* expenseTrackerApp.swift */,
-				8074BDC929B9C9B100378325 /* ContentView.swift */,
+				80CA8F3F29B9E63A00855DA3 /* Models */,
+				80CA8F4029B9E63E00855DA3 /* App */,
+				80CA8F3C29B9E62500855DA3 /* Views */,
+				80CA8F3E29B9E63200855DA3 /* Extensions */,
+				80CA8F4129B9E64400855DA3 /* Utilities */,
+				80CA8F3A29B9E5D500855DA3 /* Info.plist */,
 				8074BDCB29B9C9B200378325 /* Assets.xcassets */,
 				8074BDCD29B9C9B200378325 /* Preview Content */,
 			);
@@ -65,6 +70,43 @@
 				8074BDCE29B9C9B200378325 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80CA8F3C29B9E62500855DA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80CA8F3E29B9E63200855DA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80CA8F3F29B9E63A00855DA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80CA8F4029B9E63E00855DA3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8074BDC729B9C9B100378325 /* expenseTrackerApp.swift */,
+				8074BDC929B9C9B100378325 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		80CA8F4129B9E64400855DA3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +312,9 @@
 				DEVELOPMENT_TEAM = F5D2979ZRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = expenseTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +341,9 @@
 				DEVELOPMENT_TEAM = F5D2979ZRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = expenseTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
